@@ -24,5 +24,15 @@
 <foaf:Person>
 <foaf:name>Dragan Bozhinoski </foaf:name>
 <foaf:mbox_sha1sum>b350cc3ef3e1c300a80340c6c366e4d2f7637922</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl"/></foaf:Person></foaf:knows></foaf:Person>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Petar Partaloski</foaf:name>
+<foaf:mbox_sha1sum>ad9a09592cf78b49d73ccbb280d6a1970724884a</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Gjorgi Ivanov</foaf:name>
+<foaf:mbox_sha1sum>0ca0d3c4e14e984ed303e9161827cc19350e4bec</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=0"/></foaf:Person></foaf:knows></foaf:Person>
 </rdf:RDF>
