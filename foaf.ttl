@@ -28,4 +28,4 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubuserc
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Gjorgi Ivanov" .
 _:genid3 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "0ca0d3c4e14e984ed303e9161827cc19350e4bec" .
-_:genid3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=0> .
+_:genid3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=1> .
