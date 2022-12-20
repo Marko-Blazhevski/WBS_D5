@@ -1,39 +1,31 @@
-<rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:admin="http://webns.net/mvcb/"
-      xml:base="https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl">
-<foaf:PersonalProfileDocument rdf:about="">
-  <foaf:maker rdf:resource="#me"/>
-  <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
-<foaf:Person rdf:ID="me">
-<foaf:name>Marko Blazhevski</foaf:name>
-<foaf:title>Mr</foaf:title>
-<foaf:givenname>Marko</foaf:givenname>
-<foaf:family_name>Blazhevski</foaf:family_name>
-<foaf:nick>Marce</foaf:nick>
-<foaf:mbox_sha1sum>5c4dbd8c7b9647c69835acc67f0c9855ba3b7944</foaf:mbox_sha1sum>
-<foaf:homepage rdf:resource="https://www.facebook.com/marko.blazevski.5"/>
-<foaf:depiction rdf:resource="https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/311681889_5282211368554271_440747554982585591_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ieWq_-aXjukAX_UTCTS&_nc_ht=scontent.fskp4-1.fna&oh=00_AfADXFomPNbyAI2WNxvo5bz-FxTYRzzR5gu84VfBkdFVNg&oe=63A7BE16"/>
-<foaf:phone rdf:resource="tel:+38971251460"/>
-<foaf:schoolHomepage rdf:resource="https://www.finki.ukim.mk/"/>
-<foaf:knows>
-<foaf:Person>
-<foaf:name>Dragan Bozhinoski </foaf:name>
-<foaf:mbox_sha1sum>b350cc3ef3e1c300a80340c6c366e4d2f7637922</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl"/></foaf:Person></foaf:knows>
-<foaf:knows>
-<foaf:Person>
-<foaf:name>Petar Partaloski</foaf:name>
-<foaf:mbox_sha1sum>ad9a09592cf78b49d73ccbb280d6a1970724884a</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl"/></foaf:Person></foaf:knows>
-<foaf:knows>
-<foaf:Person>
-<foaf:name>Gjorgi Ivanov</foaf:name>
-<foaf:mbox_sha1sum>0ca0d3c4e14e984ed303e9161827cc19350e4bec</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=0"/></foaf:Person></foaf:knows></foaf:Person>
-</rdf:RDF>
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> <http://xmlns.com/foaf/0.1/maker> <https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/name> "Marko Blazhevski" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/givenname> "Marko" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/family_name> "Blazhevski" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/nick> "Marce" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "5c4dbd8c7b9647c69835acc67f0c9855ba3b7944" .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/homepage> <https://www.facebook.com/marko.blazevski.5> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/depiction> <https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/311681889_5282211368554271_440747554982585591_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ieWq_-aXjukAX_UTCTS&_nc_ht=scontent.fskp4-1.fna&oh=00_AfADXFomPNbyAI2WNxvo5bz-FxTYRzzR5gu84VfBkdFVNg&oe=63A7BE16> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/phone> <tel:+38971251460> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.finki.ukim.mk/> .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid1 .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid2 .
+<https://raw.githubusercontent.com/Marko-Blazhevski/WBS_D5/master/foaf.ttl#me> <http://xmlns.com/foaf/0.1/knows> _:genid3 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Dragan Bozhinoski " .
+_:genid1 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "b350cc3ef3e1c300a80340c6c366e4d2f7637922" .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/draganbozhinoski/WBS_D5/main/foaf.ttl> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Petar Partaloski" .
+_:genid2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "ad9a09592cf78b49d73ccbb280d6a1970724884a" .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://raw.githubusercontent.com/partaloski/foaf/master/foaf.ttl> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Gjorgi Ivanov" .
+_:genid3 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "0ca0d3c4e14e984ed303e9161827cc19350e4bec" .
+_:genid3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dropbox.com/s/pre903l6oxxjrn0/foaf.ttl?dl=0> .
